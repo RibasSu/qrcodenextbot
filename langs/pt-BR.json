@@ -1,0 +1,16 @@
+{
+    "start_message": "Bem-vindo(a)!\nCom este bot você pode ler e gerar QR Codes. Envie-me um texto, vou convertê-lo em QR Code!",
+    "help_message": "Como usar o bot:\n\n• <b>Envie um texto:</b> Basta enviar uma mensagem de texto e o bot irá gerar um QR Code com o conteúdo fornecido.\n• <b>Envie uma foto:</b> Se enviar uma foto contendo um QR Code, o bot irá ler o QR Code da imagem e retornar o conteúdo que está codificado nele.\n\nNão há comandos específicos. Apenas envie o texto ou a foto que deseja transformar em um QR Code.",
+    "privacy_message": "Este bot não armazena nenhum dado do usuário.",
+    "privacy_btn": "Política de Privacidade da Likn",
+    "privacy_link": "https://privacy.likn.org/t/qrcodenextbot",
+    "dev_message": "Desenvolvido por @RibasSu.",
+    "dev_btn": "Likn & Co.",
+    "dev_link": "https://likn.org/",
+    "qrcode_message": "Aqui está seu QR Code!",
+    "qrcode_btn_text": "Link do QR Code",
+    "error_generate_qrcode": "Desculpe, ocorreu um erro ao gerar o QR Code.",
+    "error_read_qrcode": "Não consegui ler o QR Code na imagem. Tente enviar uma imagem mais clara.",
+    "error_processing_qrcode": "Ocorreu um erro ao tentar ler o QR Code da imagem.",
+    "qrcode_content": "O QR Code contém: "
+}
