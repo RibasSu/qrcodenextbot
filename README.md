@@ -213,7 +213,7 @@ qrcodenextbot/
 ### Production
 
 - `qrcode` - QR code generation
-- `@paulmillr/qr` - QR code reading (Workers-compatible)
+- `jsqr` - QR code reading (Workers-compatible)
 
 ### Development
 

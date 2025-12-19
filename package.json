@@ -18,10 +18,10 @@
     "cloudflare-workers"
   ],
   "author": "@RibasSu",
-  "license": "ISC",
+  "license": "MIT",
   "description": "Telegram QR Code Bot running on Cloudflare Workers",
   "dependencies": {
-    "@paulmillr/qr": "^0.2.1",
+    "jsqr": "^1.4.0",
     "qrcode": "^1.5.4"
   },
   "devDependencies": {
