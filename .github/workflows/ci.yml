@@ -55,9 +55,9 @@ jobs:
 
       - name: Check for syntax errors
         run: |
-          bun -c src/worker.js
-          bun -c src/commands.js
-          bun -c src/i18n.js
+          bun build src/worker.js --target=node --outfile=/dev/null
+          bun build src/commands.js --target=node --outfile=/dev/null
+          bun build src/i18n.js --target=node --outfile=/dev/null
 
   build:
     name: Build Check
