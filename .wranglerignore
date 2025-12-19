@@ -1,0 +1,20 @@
+# Não incluir versão antiga no deploy do Workers
+
+bot.js
+config/
+commands/
+langs/
+
+# Node modules
+
+node_modules/
+
+# Environment
+
+.env
+config/.env
+
+# Wrangler
+
+.wrangler/
+wrangler.toml.bak

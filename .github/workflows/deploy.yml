@@ -1,0 +1,60 @@
+# ⚠️ DEPRECADO: Use a integração nativa do Cloudflare!
+#
+# A Cloudflare oferece integração direta com GitHub que é mais simples e eficiente.
+# Configure em: https://dash.cloudflare.com/ → Workers & Pages → Create Application
+#
+# Este arquivo foi desabilitado. Para usar deploy via GitHub Actions:
+# 1. Renomeie para deploy.yml.disabled
+# 2. Configure a integração nativa do Cloudflare (recomendado)
+# 3. Ou descomente o código abaixo e configure os secrets
+
+name: Disabled - Use Cloudflare Integration
+
+on:
+  workflow_dispatch:
+
+jobs:
+  info:
+    name: Deploy Information
+    runs-on: ubuntu-latest
+    steps:
+      - name: Integration Info
+        run: |
+          echo "🚫 Este workflow está desabilitado"
+          echo "✅ Use a integração nativa do Cloudflare para deploy automático"
+          echo ""
+          echo "Como configurar:"
+          echo "1. Acesse https://dash.cloudflare.com/"
+          echo "2. Vá em Workers & Pages"
+          echo "3. Clique em 'Create Application'"
+          echo "4. Conecte seu repositório GitHub"
+          echo "5. Configurações:"
+          echo "   - Framework preset: None"
+          echo "   - Build command: (vazio ou npm install)"
+          echo "   - Build output directory: (vazio)"
+          echo "6. Deploy automático a cada push!"
+
+# Código comentado para referência:
+#
+# name: Deploy to Cloudflare Workers (Manual)
+#
+# on:
+#   workflow_dispatch:
+#
+# jobs:
+#   deploy:
+#     name: Deploy to Production
+#     runs-on: ubuntu-latest
+#
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/setup-node@v4
+#         with:
+#           node-version: '20.x'
+#       - run: npm ci
+#       - run: npm test
+#       - uses: cloudflare/wrangler-action@v3
+#         with:
+#           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+#           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+

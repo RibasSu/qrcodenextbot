@@ -1,0 +1,13 @@
+name = "qrcodenextbot"
+main = "src/worker.js"
+compatibility_date = "2024-01-01"
+
+# Variáveis de ambiente (configure via dashboard ou wrangler secret)
+# Use: wrangler secret put TELEGRAM_TOKEN
+# Use: wrangler secret put URL_PAGE
+[vars]
+# URL_PAGE será configurada via secrets
+
+# Para development local
+# [env.dev]
+# vars = { URL_PAGE = "http://localhost:8787" }
