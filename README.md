@@ -276,7 +276,7 @@ QR code reader works best with clear, well-lit images. Image quality significant
 
 ## License
 
-ISC
+MIT
 
 ## Author
 
@@ -289,4 +289,3 @@ Likn & Co. - https://likn.com.br/
 - Cloudflare Workers: https://workers.cloudflare.com/
 - Bun Runtime: https://bun.sh
 - Telegram Bot API: https://core.telegram.org/bots/api
-- Vitest: https://vitest.dev/
