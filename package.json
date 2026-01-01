@@ -30,7 +30,7 @@
   "optionalDependencies": {
     "axios": "^1.13.2",
     "dotenv": "^16.4.5",
-    "express": "^4.21.2",
+    "express": "^4.22.1",
     "fs": "^0.0.1-security",
     "i18next": "^23.12.3",
     "i18next-fs-backend": "^2.3.2",
